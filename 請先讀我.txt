@@ -1,0 +1,6 @@
+這是用react框架寫的程式，
+在終端用npm start執行後，請在瀏覽器上貼上網址:
+http://localhost:3000/animalstar
+http://localhost:3000/aboutus
+http://localhost:3000/myimformation
+http://localhost:3000/question

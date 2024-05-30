@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&display=swap');
+
+.blackBg {
+  background-color: black;
+
+
+  .myquestion {
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+    }
+
+    position: relative;
+    max-width: 90%;
+    min-height: 800px;
+
+    .bgImg {
+      background-image: url('../../public/images/ocean_background_AI_11.png');
+      background-size: cover;
+      width: 100vw;
+      height: 800px;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    .myTitle {
+      color: #fff;
+      padding-top: 123px;
+      text-align: center;
+      // font-size: 48px;
+      text-shadow: 0em 0em 0.2em rgba(255, 255, 255, 0.5);
+
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+
+    .yao-search-box {
+      margin-bottom: 5vh;
+
+    }
+
+    .border-3 h1 {
+      font-size: 36px;
+    }
+
+    .myColumn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .myTitle {
+      margin-bottom: 5vh;
+    }
+
+
+    .accordion {
+      margin-bottom: 10vh;
+    }
+
+
+
+
+    .accordion-collapse {
+      font-size: 20px;
+      padding: 1rem;
+
+
+    }
+
+    /* 默認樣式 */
+    .accordion-button {
+      background-color: #0f3059;
+
+      color: #FFF;
+      transition: background-color 0.3s, color 0.3s;
+
+
+    }
+
+
+
+    .accordion-button:hover {
+      background-color: #255EA0;
+      color: #fff;
+    }
+
+
+  }
+
+}
+
+
+
+
+
+// pc
+@media (min-width: 768px) {
+
+  .accordion-item {
+    width: 700px;
+  }
+
+  .accordion-collapse {
+    padding: 1rem;
+
+  }
+
+
+
+
+}
